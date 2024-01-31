@@ -1,0 +1,68 @@
+.headerwrapper {
+  height: 20vh;
+  width: 100%;
+}
+
+.buttonsDiv {
+  display: flex;
+  gap: 20px;
+}
+
+.addButton {
+  width: 250px;
+  height: 40px;
+  background-color: #1253d3;
+  border: none;
+  color: white;
+}
+
+.logoutButton {
+  width: 250px;
+  height: 40px;
+  border: none;
+}
+
+
+.addModal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin-top: 30px 
+}
+
+.addModal input{
+   width: 93%;
+   padding: 13px;
+}
+
+.adddiv{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.adddiv button{
+  width: 110px;
+}
+
+
+.searchDiv {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 19px;
+}
+
+.searchIcon {
+  margin-right: 8px;
+  color: #555; 
+}
+
+.searchInput {
+  flex: 1;
+  border: none;
+  outline: none;
+}

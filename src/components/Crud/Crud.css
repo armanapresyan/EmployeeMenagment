@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 80vh;
+  overflow-y: scroll; 
+  height: 60vh; 
+  scroll-behavior: smooth; 
+}
+
+.wrapertables {
+  width: 100%;
+}
+
+.tables {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-spacing: 10px;
+}
+
+.tables th,
+.tables td {
+  padding: 8px;
+  width: 14.2857%;
+  text-align: center;
+ 
+}
+
+.tables tr {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #ddd;
+}
